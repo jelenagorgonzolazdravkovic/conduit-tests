@@ -1,0 +1,20 @@
+{
+  "apiUrl": "https://conduit-api.bondaracademy.com/api",
+  "existingUser": {
+    "email": "testjelena@mailinator.com",
+    "password": "Test1234!"
+  },
+  "invalidUser": {
+    "email": "nepostojeci@test.com",
+    "password": "PogresnaLozinka99"
+  },
+  "article": {
+    "baseTitle": "Cypress Test Article",
+    "description": "This is a description of a test article created by Cypress automation",
+    "body": "This is the body of a test article. It was created automatically using Cypress tests.",
+    "tags": "cypress automation"
+  },
+  "comment": {
+    "baseText": "Test comment left by Cypress automation"
+  }
+}

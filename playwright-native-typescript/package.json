@@ -1,0 +1,16 @@
+{
+  "name": "conduit-playwright-native",
+  "version": "1.0.0",
+  "description": "Automatski testovi za Conduit aplikaciju - native @playwright/test + TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright test && playwright show-report reports/html-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.5"
+  }
+}

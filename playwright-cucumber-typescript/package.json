@@ -1,0 +1,18 @@
+{
+  "name": "conduit-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "Automatski testovi za Conduit aplikaciju - Playwright + TypeScript + Cucumber BDD",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:report": "cucumber-js && node generate-report.js",
+    "report": "node generate-report.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "playwright": "^1.44.0",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.12.0",
+    "multiple-cucumber-html-reporter": "^3.7.0"
+  }
+}
